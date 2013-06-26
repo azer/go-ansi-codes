@@ -1,0 +1,35 @@
+package ansicodes
+
+var (
+  Reset string = "\033[0m"
+  Bold string = "\033[1m"
+  Italic string = "\033[3m"
+  Blink string = "\033[5m"
+  Underline string = "\033[4m"
+  UnderlineOff string = "\033[24m"
+  Inverse string = "\033[7m"
+  InverseOff string = "\033[27m"
+  Strikethrough string = "\033[9m"
+  StrikethroughOff string = "\033[29m"
+
+  Def string = "\033[39m"
+  White string = "\033[37m"
+  Black string = "\033[30m"
+  Grey string = "\x1B[90m"
+  Red string = "\033[31m"
+  Green string = "\033[32m"
+  Blue string = "\033[34m"
+  Yellow string = "\033[33m"
+  Magenta string = "\033[35m"
+  Cyan string = "\033[36m"
+
+  DefBg string = "\033[49m"
+  WhiteBg string = "\033[47m"
+  BlackBg string = "\033[40m"
+  RedBg string = "\033[41m"
+  GreenBg string = "\033[42m"
+  BlueBg string = "\033[44m"
+  YellowBg string = "\033[43m"
+  MagentaBg string = "\033[45m"
+  CyanBg string = "\033[46m"
+)
