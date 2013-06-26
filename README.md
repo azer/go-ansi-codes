@@ -1,22 +1,6 @@
-## ansi-codes
+## ansi-codes.go
 
 ANSI Styling codes.
-
-
-## Usage
-
-```js
-ansiCodes = require('ansi-codes')
-
-ansiCodes.bold
-// => \033[1m
-
-ansiCodes.yellow
-// => \033[31m
-
-ansiCodes.greenBg
-// => \033[42m
-```
 
 ## Reference
 
