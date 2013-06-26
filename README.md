@@ -2,6 +2,21 @@
 
 ANSI Styling codes.
 
+## Usage
+
+```go
+import "github.com/azer/ansi-codes.go"
+
+ansicodes.Bold
+// => \033[1m
+
+ansicodes.Yellow
+// => \033[31m
+
+ansicodes.GreenBg
+// => \033[42m
+```
+
 ## Reference
 
 **reset:**  \033[0m
