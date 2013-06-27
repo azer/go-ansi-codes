@@ -1,11 +1,11 @@
-## ansi-codes.go
+## go-ansi-codes
 
 ANSI Styling codes.
 
 ## Usage
 
 ```go
-import "github.com/azer/ansi-codes.go"
+import "github.com/azer/go-ansi-codes"
 
 ansicodes.Bold
 // => \033[1m
