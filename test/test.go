@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/azer/ansi-codes.go"
-	"github.com/azer/test.go"
+	"github.com/azer/go-ansi-codes"
+	"github.com/azer/go-test"
 )
 
 func main () {
