@@ -12,12 +12,6 @@ func main () {
 		expect(ansicodes.Blue, "\033[34m")
 		expect(ansicodes.Bold, "\033[1m")
 		expect(ansicodes.YellowBg, "\033[43m")
-		expect(1, 2)
-		expect(3, 4)
-	})
-
-	test.It("faks", func (expect test.Expect) {
-		expect(5, 6)
 	})
 
 }
